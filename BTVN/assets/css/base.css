@@ -13,6 +13,7 @@
 
   /*  Elements */
   --background-color: linear-gradient(180deg, #f4f0e8, #e4dcca);
+  --navbar--color: linear-gradient(180deg, var(--green--1), var(--green--1));
   --primary--color: var(--green--2);
   --button--color: linear-gradient(180deg, var(--green--1), var(--green--1));
   --text--color: var(--gray--3);
