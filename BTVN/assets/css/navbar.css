@@ -4,7 +4,7 @@
   height: 44px;
   padding: 2px;
   background-image: var(--navbar--color);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .nav-link {

@@ -26,11 +26,6 @@
   background-color: var(--white);
 }
 
-#sidebar {
-  width: 25%;
-  flex-grow: 1;
-}
-
 .intro {
   width: 100%;
   padding: 20px;
