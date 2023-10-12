@@ -53,3 +53,15 @@ ul {
   border-radius: 8px;
   overflow: hidden;
 }
+
+.text-primary {
+  color: var(--primary--color);
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.normal-text {
+  color: var(--black);
+}
