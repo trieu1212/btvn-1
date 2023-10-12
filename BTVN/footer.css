@@ -1,0 +1,35 @@
+/* trieu */
+*{
+    margin: 0;
+}
+#footer{
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.foot-head{
+    background-color:antiquewhite;
+    text-align: center;
+    width: 100vw;
+    height:35px;
+}
+.foot-foot{
+    background-color: #ffd;
+    display: flex;
+}
+.foot-foot > .follow{
+    width:35%;
+    border-right: 1px solid #ccc;
+}
+.foot-foot > .link{
+    margin-left: 30px;
+    width:35%;
+    border-right: 1px solid #ccc;
+}
+.foot-foot > .link >.list-link{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-foot >.contact{
+    width:35%;
+    margin-left: 30px;
+}
