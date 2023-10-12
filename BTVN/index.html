@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/side-bar.css" />
+    <script src="scripts/blog-render.js" defer></script>
   </head>
   <body>
     <div>
@@ -52,9 +53,71 @@
       </nav>
 
       <!-- Main -->
-      <div id="content">
-        <div id="main-content"></div>
-        <div id="side-bar"></div>
+      <div id="main">
+        <div id="content">
+          <div class="intro">
+            <div class="banner">
+              <div class="banner-img-container">
+                <img class="banner-img" src="./assets/images/banner.jpeg" alt="Banner" />
+              </div>
+              <div class="banner-content-container">
+                <div class="banner-title">
+                  <span class="sm-text">Our</span>
+                  <span class="lg-text">New Tours</span>
+                </div>
+                <div class="banner-content">
+                  <p>
+                    Đến với NATURE TOURS bạn có thể tham quan hoặc tìm kiếm thông tin về các thắng
+                    cảnh ở bất kì nơi nào trên thế giới mà bạn muốn.
+                  </p>
+                  <a href="#" class="read-more">Continue reading...</a>
+                </div>
+                <div class="banner-nav">
+                  <div class="nav-item">1</div>
+                  <div class="nav-item">2</div>
+                  <div class="nav-item">3</div>
+                  <div class="nav-item">4</div>
+                </div>
+              </div>
+            </div>
+            <div class="page-title-container">
+              <div class="page-title">
+                <h1 class="text-upper">
+                  Lorem ipsum <span class="text-primary">dolor</span> sit amet
+                </h1>
+                <p>
+                  Blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                  facilisi. Nam liber tempor cum soluta nobis
+                  <a href="#" class="text-primary">tutorials guides</a>.
+                </p>
+              </div>
+              <div class="page-title-img-container">
+                <img class="page-title-img" src="./assets/images/banner-ptg.png" alt="banner-ptg" />
+              </div>
+            </div>
+          </div>
+          <div class="blog-section">
+            <div class="blog-nav">
+              <div class="nav-item active">By Destination</div>
+              <div class="nav-item">By Species</div>
+              <div class="nav-item">By Tour Type</div>
+            </div>
+            <div class="blog-container">
+              <template id="blog-template">
+                <div class="blog">
+                  <a href="#" class="blog-link">
+                    <div class="blog-img">
+                      <img src="" alt="" />
+                    </div>
+                    <h5 class="blog-title"></h5>
+                  </a>
+                  <p class="blog-desc"></p>
+                </div>
+              </template>
+            </div>
+          </div>
+        </div>
+        <div id="sidebar"></div>
       </div>
 
       <!-- Footer -->
